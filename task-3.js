@@ -11,12 +11,6 @@ if(timestamp !== false){
 	dateFormat.masks.finTime = 'dd.mm.yyyy HH.MM';
     console.log(dateFormat(date, "finTime"));
 	
-	
-	//var fin = date.getDate() + '.' +(date.getMonth()+1) + '.' +date.getFullYear() + '.';
-	
-	//fin += '   ' + date.getHours() +'.' +date.getMinutes();
-	
-	//console.log(fin);
 }else{
 	//jos ei saada kunnollista tiedostonimeä
 	console.log('Error message');
